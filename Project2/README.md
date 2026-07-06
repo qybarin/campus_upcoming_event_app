@@ -2,13 +2,13 @@
 
 Campus Upcoming Event App is an Android mobile application developed to help students discover, join, and manage campus events more easily. The system is designed for a university environment where students can view event information, while organizers can create and manage events.
 
-## Project Overview
+# Project Overview
 
 This project focuses on improving how campus events are shared and managed. Instead of relying only on WhatsApp messages, posters, or manual announcements, this application provides a simple digital platform for students and organizers.
 
 The app is suitable for campus activities such as workshops, competitions, club programs, exhibitions, talks, and student events.
 
-## Objectives
+# Objectives
 
 * To provide a centralized platform for campus event information.
 * To allow students to view and join available events.
@@ -16,7 +16,7 @@ The app is suitable for campus activities such as workshops, competitions, club 
 * To improve communication between students and event organizers.
 * To apply mobile application development skills using Android and Firebase.
 
-## Main Features
+# Main Features
 
 * User login and registration
 * Student profile page
@@ -28,7 +28,7 @@ The app is suitable for campus activities such as workshops, competitions, club 
 * Settings page
 * Event success confirmation page
 
-## Technologies Used
+# Technologies Used
 
 | Category             | Technology     |
 | -------------------- | -------------- |
@@ -39,7 +39,7 @@ The app is suitable for campus activities such as workshops, competitions, club 
 | Design Tool          | Figma          |
 | Version Control      | Git and GitHub |
 
-## Project Structure
+# Project Structure
 
 ```text
 campus_upcoming_event_app/
@@ -61,20 +61,11 @@ campus_upcoming_event_app/
     └── gradlew
 ```
 
-## Screenshots
+# Screenshots
 
-Add your application screenshots here.
+1. Google Drive : https://drive.google.com/drive/folders/18bp7WXbOGj9cERG8nE8xm3mR3vvZuvnX?usp=sharing
 
-Example:
-
-```markdown
-![Login Page](screenshots/login.png)
-![Home Page](screenshots/home.png)
-![Create Event Page](screenshots/create-event.png)
-![Profile Page](screenshots/profile.png)
-```
-
-## How to Run the Project
+# How to Run the Project
 
 1. Clone or download this repository.
 
@@ -92,14 +83,14 @@ git clone https://github.com/qybarin/campus_upcoming_event_app.git
 
 6. Click **Run** to start the application.
 
-## Target Users
+# Target Users
 
 * UTHM students
 * Campus event organizers
 * Club and society committees
 * University staff involved in event management
 
-## Skills Demonstrated
+# Skills Demonstrated
 
 * Android mobile application development
 * Java programming
@@ -110,7 +101,7 @@ git clone https://github.com/qybarin/campus_upcoming_event_app.git
 * Git and GitHub version control
 * Problem-solving and project documentation
 
-## Future Improvements
+# Future Improvements
 
 * Add event search and filter function
 * Add event category selection
@@ -120,12 +111,12 @@ git clone https://github.com/qybarin/campus_upcoming_event_app.git
 * Improve UI design and responsiveness
 * Add dark mode support
 
-## Author
+# Author
 
 **Khairul Naqib Bin Mohd Baharin**
 Diploma in Information Technology
 Universiti Tun Hussein Onn Malaysia
 
-## Project Status
+# Project Status
 
 This project is developed for IT Diploma Subject DAT21503 MOBILE APPLICATION
