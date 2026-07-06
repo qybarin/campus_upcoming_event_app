@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBE5E5"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Details"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#004581"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/btnCloseDetails"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                app:tint="#555555"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView style="@style/DetailLabelStyle" android:text="Event Title"/>
+                <TextView android:id="@+id/tvDetailTitle" style="@style/DetailValueStyle"/>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Location"/>
+                <TextView android:id="@+id/tvDetailLocation" style="@style/DetailValueStyle"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView style="@style/DetailLabelStyle" android:text="Start Date"/>
+                        <TextView android:id="@+id/tvDetailStartDate" style="@style/DetailValueStyle"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView style="@style/DetailLabelStyle" android:text="End Date"/>
+                        <TextView android:id="@+id/tvDetailEndDate" style="@style/DetailValueStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView style="@style/DetailLabelStyle" android:text="Time"/>
+                        <TextView android:id="@+id/tvDetailTime" style="@style/DetailValueStyle"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView style="@style/DetailLabelStyle" android:text="Category"/>
+                        <TextView android:id="@+id/tvDetailCategory" style="@style/DetailValueStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Link"/>
+                <TextView android:id="@+id/tvDetailLink" style="@style/DetailValueStyle" android:autoLink="web"/>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Fee"/>
+                <TextView android:id="@+id/tvDetailEntryFee" style="@style/DetailValueStyle"/>
+
+
+                <TextView style="@style/DetailLabelStyle" android:text="Description"/>
+                <TextView android:id="@+id/tvDetailDesc" style="@style/DetailValueStyle"/>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#DDDDDD" android:layout_marginVertical="16dp"/>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Organizer Name"/>
+                <TextView android:id="@+id/tvDetailOrganizerName" style="@style/DetailValueStyle"/>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Student Name"/>
+                <TextView android:id="@+id/tvDetailStudentName" style="@style/DetailValueStyle"/>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Matrix Number"/>
+                <TextView android:id="@+id/tvDetailMatrix" style="@style/DetailValueStyle"/>
+
+                <TextView style="@style/DetailLabelStyle" android:text="Phone Number"/>
+                <TextView android:id="@+id/tvDetailPhone" style="@style/DetailValueStyle"/>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#DDDDDD" android:layout_marginVertical="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Poster"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#004581"
+                    android:layout_marginBottom="8dp"/>
+
+                <ImageView
+                    android:id="@+id/ivDetailPoster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="24dp"
+                    android:src="@drawable/image"
+                    android:padding="10dp"
+                    android:background="#F0F0F0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Approval Letter (PDF)"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#004581"
+                    android:layout_marginBottom="8dp"/>
+
+                <LinearLayout
+                    android:id="@+id/llDetailPdfContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#F5F5F5"
+                    android:padding="8dp">
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
